@@ -1,0 +1,39 @@
+Timestamp: 11/14/2014 3:11:21 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_Start()
+Extended Properties: 
+-----------------------------------------
+Timestamp: 11/14/2014 3:11:21 AM; Severity: Information; Title: XPath to Css Class Selector Mapping
+Message: found 27 mappings
+Extended Properties: //xsd:choice - partiallySupported
+//xsd:all - partiallySupported
+//xsd:union - partiallySupported
+//xsd:any/@processContents - notSupported
+//xsd:complexType/@final - notSupported
+//xsd:complexType/@block - notSupported
+//xsd:complexType/@mixed - notSupported
+//xsd:complexType/@abstract - notSupported
+//xsd:annotation - notSupported
+//xsd:element/@substitutionGroup - notSupported
+//xsd:element/@unique - notSupported
+//xsd:element/@key - notSupported
+//xsd:element/@keyref - notSupported
+//xsd:element/@field - notSupported
+//xsd:element/@selector - notSupported
+//xsd:simpleType/xsd:restriction/xsd:enumeration - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:totalDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:fractionDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:length - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:whiteSpace - notSupported
+//xsd:simpleType/xsd:restriction/xsd:pattern - notSupported
+
+-----------------------------------------
+Timestamp: 11/14/2014 3:25:53 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_End()
+Extended Properties: 
+-----------------------------------------

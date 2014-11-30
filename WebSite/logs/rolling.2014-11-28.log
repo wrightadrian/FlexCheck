@@ -1,0 +1,231 @@
+Timestamp: 11/22/2014 4:32:26 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_Start()
+Extended Properties: 
+-----------------------------------------
+Timestamp: 11/22/2014 4:32:26 AM; Severity: Information; Title: XPath to Css Class Selector Mapping
+Message: found 27 mappings
+Extended Properties: //xsd:choice - partiallySupported
+//xsd:all - partiallySupported
+//xsd:union - partiallySupported
+//xsd:any/@processContents - notSupported
+//xsd:complexType/@final - notSupported
+//xsd:complexType/@block - notSupported
+//xsd:complexType/@mixed - notSupported
+//xsd:complexType/@abstract - notSupported
+//xsd:annotation - notSupported
+//xsd:element/@substitutionGroup - notSupported
+//xsd:element/@unique - notSupported
+//xsd:element/@key - notSupported
+//xsd:element/@keyref - notSupported
+//xsd:element/@field - notSupported
+//xsd:element/@selector - notSupported
+//xsd:simpleType/xsd:restriction/xsd:enumeration - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:totalDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:fractionDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:length - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:whiteSpace - notSupported
+//xsd:simpleType/xsd:restriction/xsd:pattern - notSupported
+
+-----------------------------------------
+Timestamp: 11/22/2014 4:37:45 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_End()
+Extended Properties: 
+-----------------------------------------
+Timestamp: 11/22/2014 4:37:51 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_Start()
+Extended Properties: 
+-----------------------------------------
+Timestamp: 11/22/2014 4:37:51 AM; Severity: Information; Title: XPath to Css Class Selector Mapping
+Message: found 27 mappings
+Extended Properties: //xsd:choice - partiallySupported
+//xsd:all - partiallySupported
+//xsd:union - partiallySupported
+//xsd:any/@processContents - notSupported
+//xsd:complexType/@final - notSupported
+//xsd:complexType/@block - notSupported
+//xsd:complexType/@mixed - notSupported
+//xsd:complexType/@abstract - notSupported
+//xsd:annotation - notSupported
+//xsd:element/@substitutionGroup - notSupported
+//xsd:element/@unique - notSupported
+//xsd:element/@key - notSupported
+//xsd:element/@keyref - notSupported
+//xsd:element/@field - notSupported
+//xsd:element/@selector - notSupported
+//xsd:simpleType/xsd:restriction/xsd:enumeration - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:totalDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:fractionDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:length - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:whiteSpace - notSupported
+//xsd:simpleType/xsd:restriction/xsd:pattern - notSupported
+
+-----------------------------------------
+Timestamp: 11/22/2014 4:41:52 AM; Severity: Error; Title: XmlDocument.Load() failed
+Message: The remote server returned an error: (404) Not Found.
+Extended Properties: Xml URL - http://queue.amazonaws.com/doc/2008-01-01/QueueService.wsdlmmm
+Client IP - ::1
+
+-----------------------------------------
+Timestamp: 11/22/2014 4:42:05 AM; Severity: Information; Title: Request Successful
+Message: http://queue.amazonaws.com/doc/2008-01-01/QueueService.wsdl
+Extended Properties: Client IP - ::1
+
+-----------------------------------------
+Timestamp: 11/22/2014 4:43:15 AM; Severity: Information; Title: Request Successful
+Message: http://www.webservicex.com/globalweather.asmx?WSDL
+Extended Properties: Client IP - ::1
+
+-----------------------------------------
+Timestamp: 11/22/2014 4:43:59 AM; Severity: Information; Title: Request Successful
+Message: http://www.bccs.uni.no/~pve002/wsdls/ebi-mafft.wsdl
+Extended Properties: Client IP - ::1
+
+-----------------------------------------
+Timestamp: 11/22/2014 4:44:53 AM; Severity: Information; Title: Request Successful
+Message: http://ws.cdyne.com/ip2geo/ip2geo.asmx?wsdl
+Extended Properties: Client IP - ::1
+
+-----------------------------------------
+Timestamp: 11/22/2014 4:45:42 AM; Severity: Information; Title: Request Successful
+Message: http://www.reportingsales.com/DeFactoSF1.asmx?WSDL
+Extended Properties: Client IP - ::1
+
+-----------------------------------------
+Timestamp: 11/22/2014 4:46:44 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_End()
+Extended Properties: 
+-----------------------------------------
+Timestamp: 11/23/2014 3:34:46 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_Start()
+Extended Properties: 
+-----------------------------------------
+Timestamp: 11/23/2014 3:34:46 AM; Severity: Information; Title: XPath to Css Class Selector Mapping
+Message: found 27 mappings
+Extended Properties: //xsd:choice - partiallySupported
+//xsd:all - partiallySupported
+//xsd:union - partiallySupported
+//xsd:any/@processContents - notSupported
+//xsd:complexType/@final - notSupported
+//xsd:complexType/@block - notSupported
+//xsd:complexType/@mixed - notSupported
+//xsd:complexType/@abstract - notSupported
+//xsd:annotation - notSupported
+//xsd:element/@substitutionGroup - notSupported
+//xsd:element/@unique - notSupported
+//xsd:element/@key - notSupported
+//xsd:element/@keyref - notSupported
+//xsd:element/@field - notSupported
+//xsd:element/@selector - notSupported
+//xsd:simpleType/xsd:restriction/xsd:enumeration - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:totalDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:fractionDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:length - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:whiteSpace - notSupported
+//xsd:simpleType/xsd:restriction/xsd:pattern - notSupported
+
+-----------------------------------------
+Timestamp: 11/23/2014 3:40:43 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_End()
+Extended Properties: 
+-----------------------------------------
+Timestamp: 11/23/2014 3:40:49 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_Start()
+Extended Properties: 
+-----------------------------------------
+Timestamp: 11/23/2014 3:40:49 AM; Severity: Information; Title: XPath to Css Class Selector Mapping
+Message: found 27 mappings
+Extended Properties: //xsd:choice - partiallySupported
+//xsd:all - partiallySupported
+//xsd:union - partiallySupported
+//xsd:any/@processContents - notSupported
+//xsd:complexType/@final - notSupported
+//xsd:complexType/@block - notSupported
+//xsd:complexType/@mixed - notSupported
+//xsd:complexType/@abstract - notSupported
+//xsd:annotation - notSupported
+//xsd:element/@substitutionGroup - notSupported
+//xsd:element/@unique - notSupported
+//xsd:element/@key - notSupported
+//xsd:element/@keyref - notSupported
+//xsd:element/@field - notSupported
+//xsd:element/@selector - notSupported
+//xsd:simpleType/xsd:restriction/xsd:enumeration - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:totalDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:fractionDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:length - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:whiteSpace - notSupported
+//xsd:simpleType/xsd:restriction/xsd:pattern - notSupported
+
+-----------------------------------------
+Timestamp: 11/23/2014 4:04:24 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_End()
+Extended Properties: 
+-----------------------------------------
+Timestamp: 11/24/2014 1:07:46 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_Start()
+Extended Properties: 
+-----------------------------------------
+Timestamp: 11/24/2014 1:07:46 AM; Severity: Information; Title: XPath to Css Class Selector Mapping
+Message: found 27 mappings
+Extended Properties: //xsd:choice - partiallySupported
+//xsd:all - partiallySupported
+//xsd:union - partiallySupported
+//xsd:any/@processContents - notSupported
+//xsd:complexType/@final - notSupported
+//xsd:complexType/@block - notSupported
+//xsd:complexType/@mixed - notSupported
+//xsd:complexType/@abstract - notSupported
+//xsd:annotation - notSupported
+//xsd:element/@substitutionGroup - notSupported
+//xsd:element/@unique - notSupported
+//xsd:element/@key - notSupported
+//xsd:element/@keyref - notSupported
+//xsd:element/@field - notSupported
+//xsd:element/@selector - notSupported
+//xsd:simpleType/xsd:restriction/xsd:enumeration - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxExclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxInclusive - notSupported
+//xsd:simpleType/xsd:restriction/xsd:totalDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:fractionDigits - notSupported
+//xsd:simpleType/xsd:restriction/xsd:length - notSupported
+//xsd:simpleType/xsd:restriction/xsd:minLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:maxLength - notSupported
+//xsd:simpleType/xsd:restriction/xsd:whiteSpace - notSupported
+//xsd:simpleType/xsd:restriction/xsd:pattern - notSupported
+
+-----------------------------------------
+Timestamp: 11/24/2014 1:08:00 AM; Severity: Information; Title: Request Successful
+Message: http://queue.amazonaws.com/doc/2008-01-01/QueueService.wsdl
+Extended Properties: Client IP - ::1
+
+-----------------------------------------
+Timestamp: 11/24/2014 1:08:55 AM; Severity: Information; Title: Lifecycle Event
+Message: Application_End()
+Extended Properties: 
+-----------------------------------------
