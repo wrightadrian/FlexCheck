@@ -12,18 +12,18 @@ namespace lib {
         /// Extract all the namespaces from an XML document.
         /// </summary>
         /// <param name="xdoc">The XML document from which the namespaces will be extracted.</param>
-        /// <returns>A list of generic pairs.  
-        /// Each pair represents one namespace.  
-        /// pair.Left = the namespace prefix, 
-        /// pair.Right = the namespace</returns>
-        public static List<GenericPair<string, string>> GetAllNamespaces(XmlDocument xdoc) {
-            List<GenericPair<string, string>> lstNamespace = new List<GenericPair<string, string>>();
+        /// <returns>List<Tuple<string, string>>.  
+        /// Each Tuple represents one namespace.  
+        /// pair.Item1 = the namespace prefix, 
+        /// pair.Item2 = the namespace</returns>
+        public static List<Tuple<string, string>> GetAllNamespaces(XmlDocument xdoc) {
+            List<Tuple<string, string>> lstNamespace = new List<Tuple<string, string>>();
             XPathNavigator xpnav = xdoc.CreateNavigator();
             traverseNodes(xpnav.SelectChildren(XPathNodeType.All), lstNamespace);
             return lstNamespace;
         }
 
-        private static void traverseNodes(XPathNodeIterator nodeSet, List<GenericPair<string, string>> lstNs) {
+        private static void traverseNodes(XPathNodeIterator nodeSet, List<Tuple<string, string>> lstNs) {
             while (nodeSet.MoveNext()) {
                 var node = nodeSet.Current;
 
@@ -32,7 +32,7 @@ namespace lib {
                         bool hasNamespace = node.MoveToFirstNamespace(XPathNamespaceScope.Local);
                         if (hasNamespace) {
                             do {
-                                GenericPair<string, string> ns = new GenericPair<string, string>(node.Name, node.Value);
+                                Tuple<string, string> ns = new Tuple<string, string>(node.Name, node.Value);
                                 lstNs.Add(ns);
                             } while (node.MoveToNextNamespace(XPathNamespaceScope.Local));
                             node.MoveToParent();
