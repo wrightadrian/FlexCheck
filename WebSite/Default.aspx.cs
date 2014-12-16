@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Configuration;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Microsoft.Practices.EnterpriseLibrary.Logging;
+//using Microsoft.Practices.EnterpriseLibrary.Logging;
 
 public partial class _Default : System.Web.UI.Page {
     protected void Page_Load(object sender, EventArgs e) {

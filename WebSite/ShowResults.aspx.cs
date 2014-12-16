@@ -4,13 +4,13 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Xml;
 using System.Diagnostics;
-using Microsoft.Practices.EnterpriseLibrary.Logging;
+//using Microsoft.Practices.EnterpriseLibrary.Logging;
 
 using lib;
 
 public partial class ShowResults : System.Web.UI.Page {
     protected void Page_Load(object sender, EventArgs e) {
-        LogEntry le;
+        //LogEntry le;
         if (PreviousPage != null && PreviousPage.IsValid) {
             var tb = (TextBox)PreviousPage.FindControl("tbXmlUri");
             if (tb == null || string.IsNullOrEmpty(tb.Text)) {
@@ -23,13 +23,13 @@ public partial class ShowResults : System.Web.UI.Page {
 
             string[] permittedProtocols = new string[] { "http", "https" };
             if (!Util.UrlHasPermittedProtocol(xmlUrl, permittedProtocols)) {
-                le = new LogEntry();
+                //le = new LogEntry();
                 //le.Categories.Add(LogCategory.GENERAL);
-                le.Title = "Invalid protocol in XML URL";
-                le.Message = xmlUrl;
-                le.Severity = TraceEventType.Error;
-                le.ExtendedProperties.Add(new KeyValuePair<string, object>("Client IP", Request.UserHostAddress));
-                Logger.Write(le);
+                //le.Title = "Invalid protocol in XML URL";
+                //le.Message = xmlUrl;
+                //le.Severity = TraceEventType.Error;
+                //le.ExtendedProperties.Add(new KeyValuePair<string, object>("Client IP", Request.UserHostAddress));
+                //Logger.Write(le);
 
                 string error = "<h2>Invalid protocol in URL.</h2>";
                 LiteralControl lc = new LiteralControl(error);
@@ -42,13 +42,13 @@ public partial class ShowResults : System.Web.UI.Page {
                                                     Request.ServerVariables["SERVER_NAME"],
                                                     Request.ServerVariables["HTTP_HOST"],
                                                     permittedProtocols)) {
-                le = new LogEntry();
+                //le = new LogEntry();
                 //le.Categories.Add(LogCategory.GENERAL);
-                le.Title = "Invalid XML URL";
-                le.Message = string.Format("{0} references hosting machine", xmlUrl);
-                le.Severity = TraceEventType.Error;
-                le.ExtendedProperties.Add(new KeyValuePair<string, object>("Client IP", Request.UserHostAddress));
-                Logger.Write(le);
+                //le.Title = "Invalid XML URL";
+                //le.Message = string.Format("{0} references hosting machine", xmlUrl);
+                //le.Severity = TraceEventType.Error;
+                //le.ExtendedProperties.Add(new KeyValuePair<string, object>("Client IP", Request.UserHostAddress));
+                //Logger.Write(le);
 
                 string error = "<h2>Invalid URL.</h2>";
                 LiteralControl lc = new LiteralControl(error);
@@ -73,14 +73,14 @@ public partial class ShowResults : System.Web.UI.Page {
                 LiteralControl lce = new LiteralControl(error);
                 phAnchors.Controls.Add(lce);
 
-                LogEntry leEx = new LogEntry();
+                //LogEntry leEx = new LogEntry();
                 //leEx.Categories.Add(LogCategory.GENERAL);
-                leEx.Title = "XmlDocument.Load() failed";
-                leEx.Message = ex.Message;
-                leEx.Severity = TraceEventType.Error;
-                leEx.ExtendedProperties.Add(new KeyValuePair<string, object>("Xml URL", xmlUrl));
-                leEx.ExtendedProperties.Add(new KeyValuePair<string, object>("Client IP", Request.UserHostAddress));
-                Logger.Write(leEx);
+                //leEx.Title = "XmlDocument.Load() failed";
+                //leEx.Message = ex.Message;
+                //leEx.Severity = TraceEventType.Error;
+                //leEx.ExtendedProperties.Add(new KeyValuePair<string, object>("Xml URL", xmlUrl));
+                //leEx.ExtendedProperties.Add(new KeyValuePair<string, object>("Client IP", Request.UserHostAddress));
+                //Logger.Write(leEx);
 
                 return;
             }
@@ -106,19 +106,19 @@ public partial class ShowResults : System.Web.UI.Page {
                 LiteralControl lce = new LiteralControl(error);
                 phAnchors.Controls.Add(lce);
 
-                LogEntry leEx = new LogEntry();
+                //LogEntry leEx = new LogEntry();
                 //leEx.Categories.Add(LogCategory.GENERAL);
-                leEx.Title = "Xpath.Match() failed";
-                leEx.Message = ex.Message;
-                leEx.Severity = TraceEventType.Error;
-                leEx.ExtendedProperties.Add(new KeyValuePair<string, object>("Xml URL", xmlUrl));
-                leEx.ExtendedProperties.Add(new KeyValuePair<string, object>("Client IP", Request.UserHostAddress));
-                for (int i = 0; i < lstXei.Count; i++) {
-                    var xei = lstXei[i];
-                    string name = "XPath" + (i + 1);
-                    leEx.ExtendedProperties.Add(new KeyValuePair<string, object>(name, xei.XpathExpression));
-                }
-                Logger.Write(leEx);
+                //leEx.Title = "Xpath.Match() failed";
+                //leEx.Message = ex.Message;
+                //leEx.Severity = TraceEventType.Error;
+                //leEx.ExtendedProperties.Add(new KeyValuePair<string, object>("Xml URL", xmlUrl));
+                //leEx.ExtendedProperties.Add(new KeyValuePair<string, object>("Client IP", Request.UserHostAddress));
+                //for (int i = 0; i < lstXei.Count; i++) {
+                //    var xei = lstXei[i];
+                //    string name = "XPath" + (i + 1);
+                //    leEx.ExtendedProperties.Add(new KeyValuePair<string, object>(name, xei.XpathExpression));
+                //}
+                //Logger.Write(leEx);
 
                 return;
             }
@@ -126,13 +126,13 @@ public partial class ShowResults : System.Web.UI.Page {
             LiteralControl lcMatches = new LiteralControl(matches);
             phResult.Controls.Add(lcMatches);
 
-            le = new LogEntry();
-            //le.Categories.Add(LogCategory.REQUESTS);
-            le.Title = "Request Successful";
-            le.Message = xmlUrl;
-            le.Severity = TraceEventType.Information;
-            le.ExtendedProperties.Add(new KeyValuePair<string, object>("Client IP", Request.UserHostAddress));
-            Logger.Write(le);
+            //le = new LogEntry();
+            ////le.Categories.Add(LogCategory.REQUESTS);
+            //le.Title = "Request Successful";
+            //le.Message = xmlUrl;
+            //le.Severity = TraceEventType.Information;
+            //le.ExtendedProperties.Add(new KeyValuePair<string, object>("Client IP", Request.UserHostAddress));
+            //Logger.Write(le);
         }
     }
 }
